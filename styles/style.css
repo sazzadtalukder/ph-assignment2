@@ -141,6 +141,15 @@ border: none;
     text-align: center;
     margin: 6rem 0;
 }
+.funny-game{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 3rem;
+font-weight: 700;
+
+}
 .online-gamer > p{
     margin-top: .5rem;
     margin-bottom: 1.5rem ;
@@ -180,6 +189,7 @@ line-height: 30px;
     text-align: center;
     margin-bottom: 225px;
     margin-left: 100px;
+    width: 30%;
     /* width: 50%; */
 }
 
@@ -191,7 +201,8 @@ line-height: 30px;
 
  /* btn section  */
  .btn-section{
-    margin: 6rem 0;
+    margin-top: -7rem;
+    margin-bottom: 7rem;
  }
  .btn-first-line{
      display: flex;
@@ -288,10 +299,26 @@ footer li{
 
  /* responsive  */
 @media screen and (max-width: 576px){
-    .gamer-cards , .play-instantly{
+    .gamer-cards , .play-instantly, nav , ul{
         flex-direction: column;
         gap: 2rem;
         
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner img{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 100%;
+    }
+    .banner-content button{
+      
+        margin-right: 0;
+    }
+
+    ul{
+        text-align: center;
     }
     .card{
         width: 100%;
@@ -300,16 +327,29 @@ footer li{
     .card img {
         width: 100%;
     }
-    .play-instantly img {
+    .play-instantly-parent-img > img{
         width: 100%;
     }
-    .btn-second-line{
+    .play-instantly-child-img > img{
+        width: 60%;
+    }
+    .play-instantly-child-img{
+        bottom: 170px;
+        left: -120px;
+    }
+    
+    .play-instantly-content{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .btn-first-line{
         display: none;
     }
-    .btn-first-line{
+    .btn-second-line{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);
+       gap: 30px;
     }
     footer ul{
         display: grid;
