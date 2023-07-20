@@ -356,10 +356,10 @@ footer li{
         width: 100%;
     }
     .play-instantly-parent-img > img{
-        width: 100%;
+        width: 80%;
     }
     .play-instantly-child-img > img{
-        width: 60%;
+        width: 40%;
     }
     .play-instantly-child-img{
         bottom: 170px;
@@ -423,7 +423,7 @@ footer li{
         width: 100%;
     }
 
-    .play-instantly-parent-img > img{
+    .play-instantly-parent-img {
         width: 100%;
     }
     .play-instantly-child-img > img{
