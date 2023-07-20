@@ -164,6 +164,7 @@ font-weight: 700;
 .card{
     width: 20%;
     text-align: start;
+    position: relative;
 }
 .card img {
     width: 250px;
@@ -173,6 +174,30 @@ font-weight: 700;
 font-size: 1.25rem;
 font-weight: 500;
 line-height: 30px; 
+}
+
+.watch{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #FF42A5;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 96%;
+    height: 75%;
+    
+}
+
+.watch:hover {
+    opacity: 1;
 }
 /* .online-gamer , .btn-section  , header{
     visibility: none;
@@ -322,6 +347,7 @@ footer li{
     ul{
         text-align: center;
     }
+    
     .card{
         width: 100%;
         text-align: center;
