@@ -355,15 +355,19 @@ footer li{
     .card img {
         width: 100%;
     }
+    .play-instantly-parent-img{
+        text-align: end;
+    }
     .play-instantly-parent-img > img{
         width: 80%;
+        
     }
     .play-instantly-child-img > img{
         width: 40%;
     }
     .play-instantly-child-img{
-        bottom: 170px;
-        left: -120px;
+        bottom: 120px;
+        left: -225px;
     }
     
     .play-instantly-content{
